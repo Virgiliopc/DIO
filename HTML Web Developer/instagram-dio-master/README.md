@@ -43,18 +43,12 @@ Aprenda a programar páginas de internet e desenvolver websites utilizando HTML,
 
 Navegador web e editor de código.
 
-## seedling: Material de referência
-
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-## :rocket: Tecnologias Utilizadas 
+# :rocket: Material de referência e Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- HTML
-- CSS
-
+* [HTML básico](https://www.w3schools.com/html/)
+* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## Licença 
 
