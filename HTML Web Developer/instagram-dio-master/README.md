@@ -41,7 +41,7 @@ Aprenda a programar páginas de internet e desenvolver websites utilizando HTML,
 
 Navegador web e editor de código.
 
-# :rocket: Material de referência e Tecnologias Utilizadas
+# :rocket: Material de Referência e Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
