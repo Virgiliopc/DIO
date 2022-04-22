@@ -1,6 +1,4 @@
-<h2 align="center">#Desafio DIO Instagram</h2>___
-
-<
+<h2 align="center">#Desafio DIO Instagram</h2>
 
 <p align="center">
   <a href="LICENSE">
