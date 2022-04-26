@@ -1,19 +1,4 @@
-<h2 align="center">Recriando a Interface do Netflix - #DIOFLIX</h2>
-
-___
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/54115624/101105695-f706d800-35ac-11eb-9116-3c72f2a130c0.png" width="100" heigth="100">
-</p>
-
-
-<p align="center">
-  <a href="LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
-  </a>
-</p>
-
-___
+<h2 align="center">Recriando a Interface do Netflix - Desafio</h2>___
 
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
@@ -61,3 +46,14 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ## Licença 
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54115624/101105695-f706d800-35ac-11eb-9116-3c72f2a130c0.png" width="100" heigth="100">
+</p>
+
+
+<p align="center">
+  <a href="LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+  </a>
+</p>
