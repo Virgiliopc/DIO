@@ -1,15 +1,15 @@
-<h2 align="center">#Construindo páginas com Boostrap </h2>
+<h2 align="center">Construindo páginas com Boostrap </h2>
 
 <p align="center">
   <a href="LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">    
   </a>
 </p>
 
 ---
 
 <h3 align="center">
-  <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
+    <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
   <a href="#interrobang-motivo">Motivo</a>&nbsp;|&nbsp;
   <a href="#seedling-requisitos-mínimos">Requisitos</a>&nbsp;|&nbsp;
   <a href="#rocket-tecnologias-utilizadas">Material de Referência e Tecnologias Utlizadas</a>&nbsp;|&nbsp;
@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <img src="./img/instagram-perfil.png" max-width="800">
+  <img src="./img/pagina_exemplo.jpg" max-width="800">
 </p>
 
 ## :information_source: Sobre
