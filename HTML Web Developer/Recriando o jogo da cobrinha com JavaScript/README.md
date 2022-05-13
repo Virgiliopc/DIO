@@ -24,9 +24,11 @@
 
 ## :information_source: Sobre
 
-Apreendendo sobre como recriar o jogo da cobrina utilizando HTML, CSS e Javascript.
+Apreendendo a recriar o jogo da cobrinha utilizando HTML, CSS e Javascript na prática.
 
-Na qual fizemos uma página de exemplo na prática!
+Este projeto foi desenvolvido com a professora  [Gabriela Pinheiro](https://github.com/SpruceGabriela), na plataforma [Digital Innovation One](https://web.dio.me/).
+
+Os conceitos de `HTML`, `CSS`, e principalmente `JavaScript` foram trabalhados nas aulas para a recriação do famoso jogo da cobrinha(Snake Game).
 
 ## :interrobang: Motivo
 
