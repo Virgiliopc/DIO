@@ -7,14 +7,14 @@ snake[0] = {
   y: 8 * box
 }
 let direction = "right";
-let food = {
-  x: Match.floor(Match.random() * 15 + 1) * box,
-  y: Match.floor(Match.random() * 15 + 1) * box
+let food ={
+  x: Math.floor(Math.random() * 15 + 1) * box,
+  y: Math.floor(Math.random() * 15 + 1) * box
 }
 
 function criarBG() {
   context.fillStyle = "lightgreen";
-  context.fillRect(0, 0, 16*box, 16*box); //desenha o retângulo usando x e y e a largura e altura setadas
+  context.fillRect(0, 0, 16 * box, 16 * box); //desenha o retângulo usando x e y e a largura e altura setadas
 }
 
 function criarCobrinha() {
@@ -24,7 +24,7 @@ function criarCobrinha() {
   }
 }
 
-function drawFood(){
+function drawFood() {
   context.fillStyle = "red";
   context.fillRect(food.x, food.y, box, box);
 }
@@ -49,7 +49,7 @@ function iniciarJogo() {
   for(i = 1; i < snake.length; i++){
     if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
       clearInterval(jogo);
-      alert('Game Over :(');
+      alert("Game Over :(");
     }
   }
 
@@ -67,7 +67,7 @@ function iniciarJogo() {
 
   if(snakeX != food.x || snakeY != food.y){
     snake.pop(); //pop tira o último elemento da lista
-  } else {
+  }else{
     food.x = Match.floor(Match.random() * 15 + 1) * box;
     food.y = Match.floor(Match.random() * 15 + 1) * box;
   } 
