@@ -44,6 +44,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [HTML básico](https://www.w3schools.com/html/)
 - [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## Licença
 
