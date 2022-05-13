@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <img src="./img/pagina_exemplo.jpg" max-width="800">
+  <img src="./img/jogo-da-cobrinha.jpeg" max-width="800">
 </p>
 
 ## :information_source: Sobre
