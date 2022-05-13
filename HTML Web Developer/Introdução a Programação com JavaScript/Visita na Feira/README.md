@@ -1,17 +1,17 @@
 ## Desafio
 
-Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável PROD, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo).
+Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B (pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
 
 ## Entrada
 
-A entrada contém 2 valores inteiros.
+A entrada contém 2 valores inteiros, separados por um espaço.
 
 ## Saída
 
-Exiba a variável PROD conforme exemplo abaixo, tendo obrigatoriamente um espaço em branco antes e depois da igualdade.
+Imprimir a mensagem "X = " (sendo a letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Assegure que exista um espaço antes e depois do sinal de igualdade.
 
 | Exemplo de Entrada                | Exemplo de Saída                                                                                         |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 3<br />9 | PROD = 27 |---|---|
-| -30<br />10 | PROD = -300 |--- |---|
- | 0<br />9 |PROD = 0 |
+|  11  7 | x = 18 |---|---|
+| -11  6 | x = -5 |--- |---|
+ | 11 -2 | x = 9 |
