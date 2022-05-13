@@ -8,10 +8,10 @@ Exiba a mensagem conforme o exemplo de saída abaixo, sendo uma mensagem por lin
 -----------------------------------------------
 Exemplo de Entrada		Exemplo de Saída
 -----------------------------------------------
--5						3 valor(es) par(es)
-0 						2 valor(es) impar(es)
--3						1 valor(es) positivo(s)
--4						3 valor(es) negativo(s)
+-5						3 par(es)
+0 						2 impar(es)
+-3						1 positivo(s)
+-4						3 negativo(s)
 12
 -----------------------------------------------
 */
