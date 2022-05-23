@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  <img src="./img/tela.jpg" width="600">
+  <img src="./assets/img/tela.jpg" width="600">
 </p>
 
 ## :information_source: Sobre
