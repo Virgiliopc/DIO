@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>To-do list</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/e3c5453e4f.js" crossorigin="anonymous"></script>
+    <title>To-do list | Javascript </title>
 </head>
-<body>
-    <h1>To-do list</h1>
-    <div id="list">
-        <form id="task-form">
-            <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui sua tarefa">
-            <button type="submit">Adicionar</button>
-        </form>
-        <div id="tasks"></div>
-    </div>
+<body>    
+    <section>
+        <div class="img-box">
+            <img src="assets/img/to-do.jpg" alt="To Do List">
+        </div>
+        <div class="content-box">
+            <div class="form-box">
+                <h2>Lista de Tarefas</h2>
+                <form>
+                    <div class="input-box">
+                        <input type="text" placeholder="Adicione sua nova tarefa">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+
+                    <ul class="todo-box">
+                        
+                    </ul>
+                    <div class="pending">
+                        <span>Você possui <span class="number-pending"></span> pendências</span>
+                        <button>Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
