@@ -1,29 +1,65 @@
-const form = document.getElementById("task-form");
-const taskList = document.getElementById("tasks");
+const inputBox = document.querySelector(".input-box input");
+const addButton = document.querySelector(".input-box button");
+const todoBox = document.querySelector(".todo-box");
+const clearAll = document.querySelector(".pending button");
 
-form.onsubmit = function (e) {
-    e.preventDefault();
-    const inputField = document.getElementById("task-input");
-    addTask(inputField.value);
-    form.reset();
-};
+inputBox.onkeyup = ()=> {
+    let userData = inputBox.value;
+    if(userData.trim() !=0) { 
+        addButton.classList.add("active"); 
+    } else {
+        addButton.classList.remove("active");
+    }
+}
 
-function addTask(description) {
-    const taskContainer = document.createElement("div");
-    const newTask = document.createElement("input");
-    const taskLabel = document.createElement("label");
-    const taskDescriptionMode = document.createElement("description");
+showTasks();
 
-    newTask.setAttribute("type", "checkbox");
-    newTask.setAttribute("name", description);
-    newTask.setAttribute("id", description);
+addButton.onclick = ()=> {
+    let userData = inputBox.value; 
+    let getLocalStorage = localStorage.getItem("Novo");
+    if(getLocalStorage == null) { 
+        listArr = [];
+    } else {
+        listArr = JSON.parse(getLocalStorage); 
+    }
+    listArr.push(userData);
+    localStorage.setItem("Novo", JSON.stringify(listArr)); 
+    showTasks(); 
+}
 
-    taskLabel.setAttribute("for", description);
-    taskLabel.appendChild(taskDescriptionMode);
+function showTasks() {
+    let getLocalStorage = localStorage.getItem("Novo"); 
+    if(getLocalStorage == null) { 
+        listArr = [];
+    } else {
+        listArr = JSON.parse(getLocalStorage); 
+    }
+    const pendingNumb = document.querySelector(".number-pending");
+    pendingNumb.textContent = listArr.length; 
+    if(listArr.length > 0) { 
+        clearAll.classList.add("active");
+    } else {
+        clearAll.classList.remove("active");
+    }
+    let newLiTag = '';
+   
+    listArr.forEach((element, index) => {
+        newLiTag += `<li> ${element} <span onclick="removeTask(${index})"><i class="fas fa-trash"></i></span></li>`;
+    });
+    todoBox.innerHTML = newLiTag; 
+    inputBox.value = ""; 
+}
 
-    taskContainer.classList.add("task-item");
-    taskLabel.appendChild(newTask);
-    taskLabel.appendChild(taskLabel);
+function removeTask(index) {
+    let getLocalStorage = localStorage.getItem("Novo");
+    listArr = JSON.parse(getLocalStorage); 
+    listArr.splice(index, 1); 
+    localStorage.setItem("Novo", JSON.stringify(listArr)); 
+    showTasks(); 
+}
 
-    taskLabel.appendChild(taskContainer);
+clearAll.onclick = ()=> {
+    listArr = []; 
+    localStorage.setItem("Novo", JSON.stringify(listArr)); 
+    showTasks(); 
 }

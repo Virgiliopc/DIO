@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    --pink: #ff4584;
+    --pink: #2f109e;
     --white: #fff;
 }
 
@@ -30,8 +30,7 @@ section .img-box:before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(225deg, #12c2e9, #c471ed, #f64f59);
+    height: 100%;    
     z-index: 1;
     mix-blend-mode: screen;
 }
